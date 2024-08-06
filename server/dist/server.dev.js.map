@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","sourcesContent":[],"file":"server.dev.js"}
+{"version":3,"sources":["server.js"],"names":["app"],"mappings":";;AAAA;;;;AAGA,IAAMA,GAAG,GAAG,0BAAZ","sourcesContent":["import express from 'express'\r\n\r\n\r\nconst app = express()\r\n"],"file":"server.dev.js"}
