@@ -1,0 +1,55 @@
+
+.numbers{
+    padding-bottom: 130px;
+    padding-top: 130px;
+    background-color: #e83e3e;
+}
+.skills_card{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    width: 1300px;
+    margin: auto;
+}
+.skills_icons{
+    display: grid;
+    column-gap: 2px;
+    row-gap: 2px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.skills_icons div{
+    border-radius: 22px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    font-size: 60px;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    transition: all 0.4s ease; 
+
+}
+.skills_icons div span{
+    position: absolute;
+    display: none;
+    transition: all 0.4s ease; 
+}
+.skills_title h3{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.skills_icons div:hover{
+    box-shadow: 1px 0px  6px  rgb(155, 59, 59);
+}
+.skills_icons div:hover span{
+    display: block;
+    font-size: 20px;
+}
+.skills_icons div:hover p{
+    transform: translateY(-50px);
+}
+

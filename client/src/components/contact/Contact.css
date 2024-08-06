@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.form{
+    background-color: rgb(232, 232, 232);
+}
+.contact h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+form{
+    height: 300px;
+    margin: auto;
+    width: 50%;
+    display: grid;
+    column-gap: 30px;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+    place-content: center   ;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+}
+form .fn{
+    grid-area: 1/1/2/2;
+    /* background-color: blue; */
+    height: 100px;
+    width: 300px;
+}
+form .email{
+    grid-area: 2/1/3/2;
+    /* background-color: blue; */
+    height: 100px;
+    width: 300px;
+}form .mes{
+    grid-area: 1/2/2/3;
+    /* background-color: blue; */
+    height: 100px;
+    width: 300px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.fn label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.email label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.mes label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+

@@ -1,0 +1,7 @@
+.about_text p{
+    font-size: 26px;
+    font-family: sans-serif;
+    max-width: 900px;
+    text-align: center;
+    line-height: 40px;
+}

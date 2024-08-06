@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.services{
+    background-color: rgb(241, 240, 240);
+    height: max-content;
+    padding-bottom: 130px;
+    padding-top: 130px;
+}
+.services_cards{
+    justify-content: space-evenly;
+    display: grid;
+    width: 1300px;
+    margin: auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+.left h3{
+    color: gray;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+.right_title p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.left{
+    grid-area: 1/1/2/2;
+    width: 600px;
+}
+.free_line{
+   width: 100%;
+   height: 2px;
+   background-color: rgb(210, 210, 210);
+}
+.right_services{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.right_services_titles{
+    display: flex;
+    gap: 40px;
+    align-items: start;
+    /* justify-content: start; */
+}
+.right_services_titles_top p{
+    color: gray;
+    font-size: 26px;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+.right_services_titles_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0;
+}
+.right_services_titles_bottom h1{
+    font-family: "Montserrat", sans-serif;
+}
+.right_services_titles_bottom p{
+    color: gray;
+    display: flex;
+    gap: 20px;
+}
