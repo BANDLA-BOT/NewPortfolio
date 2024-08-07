@@ -7,9 +7,9 @@ import Footer from './components/footer/Footer'
 import Services from './components/services/Services'
 import Numbers from './components/numbers/Numbers'
 import Education from './components/education/Experience'
-
 const App = () => {
   return (
+    <>
     <div>
       <Header/>
       <Hero/>
@@ -20,6 +20,7 @@ const App = () => {
       <Education/>
       <Footer/>
     </div>
+    </>
   )
 }
 
